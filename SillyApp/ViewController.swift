@@ -10,6 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func blueSwitch(sender: UISwitch) {
+       view.backgroundColor = UIColor.blueColor()
+    
+    }
+    
+    @IBAction func greenSwitch(sender: UISwitch) {
+        view.backgroundColor = UIColor.greenColor()
+    }
+    
+    @IBAction func orangeColor(sender: UISwitch) {
+        view.backgroundColor = UIColor.orangeColor()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
